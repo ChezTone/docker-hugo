@@ -1,0 +1,3 @@
+= Docker with latest hugo binary
+
+https://gohugo.io/[hugo] minimal docker image
