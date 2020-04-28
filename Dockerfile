@@ -3,7 +3,7 @@ FROM ubuntu as ubuntu
 
 FROM alpine as builder
 
-ENV HUGO_VERSION 0.64.0
+ENV HUGO_VERSION 0.69.2
 
 RUN apk add curl tar
 RUN mkdir /usr/working_directory
