@@ -1,9 +1,6 @@
-FROM ubuntu as ubuntu
-
-
 FROM alpine as builder
 
-ENV HUGO_VERSION 0.69.2
+ENV HUGO_VERSION 0.85.0
 
 RUN apk add curl tar
 RUN mkdir /usr/working_directory
